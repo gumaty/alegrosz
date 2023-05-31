@@ -11,7 +11,11 @@ function ProductList({ products, search }) {
                         .includes(search.toLowerCase())
                 )
                 .map((product) => (
-                    <ProductCard key={product.id} product={product} />
+                    <ProductCard
+                        magic={42}
+                        key={product.id}
+                        product={product}
+                    />
                 ))}
         </>
     );
