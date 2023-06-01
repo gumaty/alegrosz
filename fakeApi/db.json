@@ -4,15 +4,15 @@
       "name": "Telewizor LED 55 cali",
       "description": "Wysokiej jakości telewizor LED o rozmiarze 55 cali",
       "id": 1,
-      "price": "1999",
-      "quantity": "6"
+      "price": 1999,
+      "quantity": "5"
     },
     {
       "name": "Smartfon Samsung Galaxy S21",
       "description": "Nowoczesny smartfon z najlepszymi funkcjami i wydajnością",
       "id": 2,
       "price": 2599.99,
-      "quantity": 10
+      "quantity": 8
     },
     {
       "name": "Laptop Dell XPS 15",
