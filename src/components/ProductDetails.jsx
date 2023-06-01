@@ -72,12 +72,15 @@ function ProductDetails() {
                             </CardContent>
                             <CardActions>
                                 <Link to={"/"}>
-                                    <Button size="small">Back</Button>
+                                    <Button size="small" variant="outlined">Back</Button>
                                 </Link>
 
-                                <Button onClick={deleteProduct} size="small">
+                                <Button onClick={deleteProduct} size="small" variant="outlined">
                                     Delete
                                 </Button>
+                                <Link to={`/product-edit/${product.id}`}>
+                                    <Button size="small" variant="outlined">Edit</Button>
+                                </Link>
                             </CardActions>
                         </Card>
                     </Grid>
