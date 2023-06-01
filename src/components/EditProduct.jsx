@@ -6,15 +6,12 @@ import { useParams } from "react-router-dom";
 
 class EditProduct extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            product: {}
-        };
-    }
+    state = {
+        product: {}
+    };
 
     componentDidMount() {
-        this.getProduct(this.props.productIdu).then((product) => {
+        this.getProduct(this.props.productId).then((product) => {
             this.setState({ product });
         });
     }
