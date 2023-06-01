@@ -4,8 +4,8 @@
       "name": "Telewizor LED 55 cali",
       "description": "Wysokiej jakości telewizor LED o rozmiarze 55 cali",
       "id": 1,
-      "price": 1999.99,
-      "quantity": 5
+      "price": "1999",
+      "quantity": "6"
     },
     {
       "name": "Smartfon Samsung Galaxy S21",
